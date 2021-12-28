@@ -1,0 +1,6 @@
+- name: testing
+  hosts: localhost
+  tasks:
+    - name: task1
+      ansible.builtin.debug:
+        msg: this is testing file yaml
