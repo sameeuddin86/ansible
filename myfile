@@ -1,0 +1,8 @@
+apiversion: v1
+kind: port
+metadata:
+   name: testpod
+spec:
+   containers:
+      - name: c00
+        image: centos
